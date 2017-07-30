@@ -14,23 +14,21 @@
     <option name="qualificationType" value="On collisions" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="977ab" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="977ab" />
-    </pattern>
-    <pattern icon="important" useCustomColors="true" case-sensitive="false" pattern="\bmbc\b.*">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="\bmbc\b.*">
       <option name="FOREGROUND" value="5aff16" />
       <option name="BACKGROUND" value="2e3135" />
       <option name="FONT_TYPE" value="1" />
       <option name="EFFECT_COLOR" value="3c3f41" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
       <option name="EFFECT_TYPE" value="1" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\blwa\b.*">
+      <option name="FOREGROUND" value="edf8ff" />
+      <option name="BACKGROUND" value="f75243" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
   </component>
   <component name="XmlEditorOptions">
