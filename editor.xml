@@ -26,7 +26,7 @@
     </pattern>
     <pattern useCustomColors="true" pattern="\blwa\b.*">
       <option name="FOREGROUND" value="edf8ff" />
-      <option name="BACKGROUND" value="f75243" />
+      <option name="BACKGROUND" value="70251f" />
       <option name="FONT_TYPE" value="1" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
