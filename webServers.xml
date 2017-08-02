@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a539acc0-74f8-4c5e-929c-d0de9025e82d" name="cavemus.eu (df.eu)" url="http://ftp.cavemus.eu">
+        <fileTransfer host="ftp.cavemus.eu" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
