@@ -25,6 +25,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="608a85d4-febd-481a-a50e-4da1c3d4ed56" name="harmdierks.de (1und1)" url="http://home564166888.1and1-data.host">
+        <fileTransfer host="home564166888.1and1-data.host" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
