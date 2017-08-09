@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="933ca662-56dd-41f2-ab68-2c7ebe96fed4" name="aii-industrieboden.de (HE)" url="http://wp238.webpack.hosteurope.de">
+        <fileTransfer host="wp238.webpack.hosteurope.de" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
