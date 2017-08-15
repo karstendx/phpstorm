@@ -41,6 +41,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="f572ea2f-243c-4658-9ab8-6ef5712c912d" name="offshore-rettung.org (all-inkl.com)" url="http://offshore-rettung.org">
+        <fileTransfer host="offshore-rettung.org" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
