@@ -49,6 +49,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="fffb17d8-4307-4fd8-9318-f0250a8bc277" name="ts-beyer.de (HE)" url="http://ts-beyer.de">
+        <fileTransfer host="ts-beyer.de" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
