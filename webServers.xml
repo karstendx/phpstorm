@@ -57,6 +57,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="2ea76e53-81d0-4487-b1de-3ba7b6657d0e" name="brass-sax.de (all-inkl.com" url="http://brass-sax.de">
+        <fileTransfer host="brass-sax.de" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
