@@ -33,8 +33,24 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="933ca662-56dd-41f2-ab68-2c7ebe96fed4" name="aii-industrieboden.de (HE)" url="http://wp238.webpack.hosteurope.de">
-        <fileTransfer host="wp238.webpack.hosteurope.de" port="21" accessType="FTPS">
+      <webServer id="f572ea2f-243c-4658-9ab8-6ef5712c912d" name="offshore-rettung.org (all-inkl.com)" url="http://offshore-rettung.org">
+        <fileTransfer host="offshore-rettung.org" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fffb17d8-4307-4fd8-9318-f0250a8bc277" name="ts-beyer.de (HE)" url="http://ts-beyer.de">
+        <fileTransfer host="ts-beyer.de" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2ea76e53-81d0-4487-b1de-3ba7b6657d0e" name="brass-sax.de (all-inkl.com" url="http://brass-sax.de">
+        <fileTransfer host="brass-sax.de" port="21" accessType="FTPS">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
           </advancedOptions>
