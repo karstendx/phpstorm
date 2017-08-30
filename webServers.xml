@@ -57,6 +57,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="1a62f067-90f0-436b-86bd-7649c3e5217a" name="heiners-werkschule.net (all-inkl.com)" url="http://heiners-werkschule.net">
+        <fileTransfer host="heiners-werkschule.net" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
