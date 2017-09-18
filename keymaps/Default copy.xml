@@ -1,0 +1,9 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+</keymap>
