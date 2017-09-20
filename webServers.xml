@@ -81,6 +81,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="cf2df7e5-42a4-416b-8b35-75ccb63265a5" name="waldpark-willich.de (1und1)" url="http://home445115325.1and1-data.host">
+        <fileTransfer host="home445115325.1and1-data.host" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
