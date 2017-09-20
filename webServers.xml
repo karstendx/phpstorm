@@ -89,6 +89,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="d72c4ce0-81b1-4456-b3d5-a0925d0c8b3a" name="mangoblau.de (1und1)" url="http://home164177254.1and1-data.host">
+        <fileTransfer host="home164177254.1and1-data.host" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
