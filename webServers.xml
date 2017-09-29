@@ -97,6 +97,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="4cc1a17d-db36-4a19-9b4b-16a1f5140f07" name="die-nadorster.de (Strato)" url="http://die-nadorster.de">
+        <fileTransfer host="die-nadorster.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
